@@ -1,0 +1,10 @@
+{% load_yaml as rawmap %}
+Debian:
+  client:
+    pkgs:
+      - nfs-common
+  server:
+    pkgs:
+      - nfs-common
+      - nfs-kernel-server
+{% endload %}
