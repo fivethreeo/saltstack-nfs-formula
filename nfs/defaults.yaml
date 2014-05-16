@@ -7,4 +7,11 @@ Debian:
     pkgs:
       - nfs-common
       - nfs-kernel-server
+RedHat:
+  client:
+    pkgs:
+      - nfs-utils
+  server:
+    pkgs: []
+      #- TODO nfs-kernel-server
 {% endload %}
